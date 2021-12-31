@@ -9,7 +9,7 @@ class Music extends Model
 {
     use HasFactory;
     public $guarded = [];
-    
+    protected $table = 'Music';
 
     public function getImagePathAttribute()
     {

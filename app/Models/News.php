@@ -9,7 +9,7 @@ class News extends Model
 {
     use HasFactory;
     public $guarded = [];
-    
+    protected $table = 'News';
 
     public function getImagePathAttribute()
     {
