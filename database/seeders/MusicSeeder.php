@@ -17,7 +17,7 @@ class MusicSeeder extends Seeder
     {
         $News = [
             [
-              'image'=> 'https://picsum.photos/500/300?image=1',
+              'image'=> 'IMG-20190917-WA0018.jpg',
               'track'=> 'https://drive.google.com/uc?id=1grhQQInDkBXzn0leYSGUPXHekPslSKBu&export=media',
               'title'=> "Supermodel",
               'artist'=> "Foster the People",
@@ -30,7 +30,7 @@ class MusicSeeder extends Seeder
               'Label'=> "Life",
             ],
             [
-              'image'=> 'https://picsum.photos/500/300?image=2',
+              'image'=> 'IMG-20190925-WA0105.jpg',
               'track'=> 'https://drive.google.com/uc?id=1grhQQInDkBXzn0leYSGUPXHekPslSKBu&export=media',
               'title'=> "Super Video",
               'artist'=> "Foster the Video",
@@ -43,7 +43,7 @@ class MusicSeeder extends Seeder
               'Label'=> "Video",
             ],
             [
-              'image'=> 'https://picsum.photos/500/300?image=3',
+              'image'=> '16228793_1268764529829650_4665650165082750976_n.jpg',
               'track'=> 'https://drive.google.com/uc?id=1grhQQInDkBXzn0leYSGUPXHekPslSKBu&export=media',
               'title'=> "Super Music",
               'artist'=> "Foster the Music",
