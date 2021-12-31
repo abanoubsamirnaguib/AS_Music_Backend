@@ -31,7 +31,7 @@ class MusicController extends Controller
             $Music = Music::paginate(5);
                 }                
                 $fields= DB::getSchemaBuilder()->getColumnListing("Music");
-                dd($fields);
+                // dd($fields);
                 $fields = [$fields[1],$fields[2],$fields[3],$fields[7]];
                   
         return view('dashboard.Music.index',['Music'=>$Music ,'fields'=>$fields ]);
