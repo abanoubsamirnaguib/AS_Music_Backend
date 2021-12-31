@@ -30,7 +30,7 @@ class NewsController extends Controller
             $News=News::paginate(5);
                 }
 
-          $enumoption = $this->getEnumValues( 'news', 'category' );
+          $enumoption = $this->getEnumValues( 'News', 'category' );
                 // return (($categories));
         return view('dashboard.News.index',['News'=>$News ,'enumoption'=>$enumoption ]);
     }
@@ -38,7 +38,7 @@ class NewsController extends Controller
     public function create()
     {
         // $News=News::all();
-        $enumoption = $this->getEnumValues( 'news', 'category' );
+        $enumoption = $this->getEnumValues( 'News', 'category' );
         return view('dashboard.News.create',['enumoption'=>$enumoption]);
     }
 
@@ -92,7 +92,7 @@ class NewsController extends Controller
     public function edit(News $New)
     {
         // $News=News::all();
-        $enumoption = $this->getEnumValues( 'news', 'category' );
+        $enumoption = $this->getEnumValues( 'News', 'category' );
         return view("dashboard.News.edit",['New'=>$New , 'enumoption'=>$enumoption]);
     
     }
