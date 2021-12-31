@@ -17,7 +17,7 @@ class NewsSeeder extends Seeder
     {
         $News = [
             [
-              'image'=> 'IMG-20190925-WA0105.jpg',
+              'image'=> 'IMG-20190926-WA0050.jpg',
               'title'=> "Supermodel",
               'subTitle'=> "Foster the People",
               'description'=>
@@ -29,7 +29,7 @@ class NewsSeeder extends Seeder
               'category'=> "Life",
             ],
             [
-              'image'=> 'IMG-20190925-WA0105.jpg',
+              'image'=> 'IMG-20190926-WA0050.jpg',
               'title'=> "Super Video",
               'subTitle'=> "Foster the Video",
               'description'=>
@@ -41,7 +41,7 @@ class NewsSeeder extends Seeder
               'category'=> "Video",
             ],
             [
-              'image'=> 'IMG-20190925-WA0105.jpg',
+              'image'=> 'IMG-20190926-WA0050.jpg',
               'title'=> "Super Music",
               'subTitle'=> "Foster the Music",
               'description'=>

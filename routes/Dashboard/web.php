@@ -93,8 +93,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
         Route::get('get', function() {
             // $filename = 'default.png';
             $filename = 'demo 6.mp3';
+            // $filename = 'IMG-20190926-WA0050.jpg';
         
             // $dir = '/1Umjh6NEblkvfOV2vd-G87SqF7ycI5FaO';
+            // $dir = '/1F5fFFquyS9qn54TNNf5b-ebyxwdK8ohy';
             $dir = '/1R-PdZQb5XIeycPWgntlfqxLWQl3Z8_da';
             $recursive = false; // Get subdirectories also?
             $contents = collect(\Storage::disk("google")->listContents($dir, $recursive));
@@ -104,7 +106,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
                 ->where('filename', '=', pathinfo($filename, PATHINFO_FILENAME))
                 ->where('extension', '=', pathinfo($filename, PATHINFO_EXTENSION))
                 ->first(); // there can be duplicate file names!
-                // dd($file);
+                // dd($contents);
         
             return    $rawData = \Storage::disk("google")->url($file['path']);
             // https://drive.google.com/uc?id=1grhQQInDkBXzn0leYSGUPXHekPslSKBu&export=media
