@@ -30,7 +30,7 @@ class MusicController extends Controller
             else {
             $Music = Music::paginate(5);
                 }                
-                $fields= \DB::getSchemaBuilder()->getColumnListing("music");
+                $fields= DB::getSchemaBuilder()->getColumnListing("music");
                 dd($fields);
                 $fields = [$fields[1],$fields[2],$fields[3],$fields[7]];
                   
