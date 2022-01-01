@@ -101,7 +101,10 @@ return [
     'message' => 'message',
     'type' => 'type',
     'Number' => 'Number',
-    'color' => 'color'
+    'color' => 'color',
+    'artist' => 'artist',
+    'Label' => 'Label',
+    'Released' => 'Released'
 
 
 ];
