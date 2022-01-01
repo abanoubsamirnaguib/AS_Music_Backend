@@ -17,39 +17,46 @@ class TestimonialsSeeder extends Seeder
     {
         $testimonials=[
             [
-                'name'=>'mikeal',
-                'job'=>'musicion',
-                'description'=>'he is a great producer',
-                'likes'=>20,
-                'image' => 'default.png'
+                'name'=>'Haider Ali Ahmed',
+                'job'=>'Singer',
+                'description'=>'he is a great producer , I Loved to work With him',
+                'likes'=>2,
+                'image' => 'haideraliahmed.jpg'
             ],
             [
-                'name'=>'Abanoub Samir',
-                'job'=>'singer',
-                'description'=>'Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.',
+                'name'=>'May Magdy',
+                'job'=>'Video Producer',
+                'description'=>'I loved my experience. Actually I believe he is a rising star. Very pleasant to work with, takes any comments and works his best to get you satisfied.',
                 'likes'=>7,
-                'image' => 'default.png'
+                'image' => 'maymagdy.jpg'
             ],
             [
-                'name'=>'Abanoub',
-                'job'=>'singer',
-                'description'=>'Turns out semicolon-less style is easier and safer in TS .',
+                'name'=>'Houda Belhadj',
+                'job'=>'Singer',
+                'description'=>'very responsive and great quality of work , I hope to work again',
                 'likes'=>10,
-                'image' => 'default.png'
+                'image' => 'houdabelhadj.jpeg'
             ],
             [
-                'name'=>'mero',
-                'job'=>'bassiest',
-                'description'=>'Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.',
+                'name'=>'zinga',
+                'job'=>'Music Producer',
+                'description'=>'Great Musicion - good quality and vision. Will work again',
                 'likes'=>14,
-                'image' => 'default.png'
+                'image' => 'zinga.jfif'
             ],
             [
-                'name'=>'Abanoub Samir',
-                'job'=>'musicion',
-                'description'=>'Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.</p>\r\n\r\n<p>Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.',
+                'name'=>'kamalhlk',
+                'job'=>'Songwriter',
+                'description'=>'Amazing composer, I Really Like his music , his Imagination , he has unique style',
                 'likes'=>6,
-                'image' => 'default.png'
+                'image' => 'kamalhlk.jpg'
+            ],
+            [
+                'name'=>'Ebrahem Abo Toama',
+                'job'=>'Singer',
+                'description'=>'I Worked with him for more than 2 years, and he always make me happy with his amazing Music ,really he is best Music Producer Ever',
+                'likes'=>6,
+                'image' => 'EbrahemAboToama.jpg'
             ],
         ];
         foreach($testimonials as $testimonial){
