@@ -96,6 +96,12 @@ return [
     'reply' => 'Reply',
     'repliedMsg' => 'Replied Message',
     'Music' => 'Music',
+    'comments' => 'comments',
+    'id' => 'Id',
+    'message' => 'message',
+    'type' => 'type',
+    'Number' => 'Number',
+    'color' => 'color'
 
 
 ];
