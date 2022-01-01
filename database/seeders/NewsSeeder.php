@@ -21,9 +21,7 @@ class NewsSeeder extends Seeder
             'title'=> "El Moemen Al Amen ",
             'subTitle'=> "Christian poems",
             'description'=>
-              "ترنيمه المؤمن الامين 🎶 🎵  2021  
-              عزف جيتار 🎸و بيانو 🎹و كمان 🎻،،
-              رؤيه جديده للترنيمه و موسيقى هاديه",
+              "Violin Piano and guitar for new vision of the song ",
             'likesNumber'=> 90 ,
             'shareLink' => "https://www.youtube.com/watch?v=zP601i-x0O4" ,
             'Date' => date("y-m-d h:i:s" , '2021/03/05'),
