@@ -25,7 +25,7 @@ class NewsSeeder extends Seeder
               عزف جيتار 🎸و بيانو 🎹و كمان 🎻،،
               رؤيه جديده للترنيمه و موسيقى هاديه",
             'likesNumber'=> 90 ,
-            'shareLink' => "https://www.youtube.com/watch?v=zP601i-x0O4" ,
+            'shareLink' => "www.youtube.com/watch?v=zP601i-x0O4" ,
             'Date' => date("y-m-d h:i:s" ),
             'shareNumber' => 2 ,
             'category'=> "Video",
@@ -61,7 +61,7 @@ class NewsSeeder extends Seeder
               'description'=>
                 "Play Guitar in bat band ,To see More of coming event Join Our Band Page ",
               'likesNumber'=> 10 ,
-              'shareLink' => "https://www.facebook.com/batbandstar" ,
+              'shareLink' => "www.facebook.com/batbandstar" ,
               'Date' => date("y-m-d h:i:s"),
               'shareNumber' => 2 ,
               'category'=> "Social",
