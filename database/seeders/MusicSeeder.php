@@ -18,7 +18,7 @@ class MusicSeeder extends Seeder
         $News = [
             [
               'image'=> 'IMG-20190917-WA0018.jpg',
-              'track'=> 'https://drive.google.com/uc?id=1grhQQInDkBXzn0leYSGUPXHekPslSKBu&export=media',
+              'track'=> 'all vocal.mp3',
               'title'=> "Supermodel",
               'artist'=> "Foster the People",
               'description'=>
@@ -30,8 +30,8 @@ class MusicSeeder extends Seeder
               'Label'=> "Life",
             ],
             [
-              'image'=> 'IMG-20190925-WA0105.jpg',
-              'track'=> 'https://drive.google.com/uc?id=1grhQQInDkBXzn0leYSGUPXHekPslSKBu&export=media',
+              'image'=> 'Abanoub.jpg',
+              'track'=> 'demo 6.mp3',
               'title'=> "Super Video",
               'artist'=> "Foster the Video",
               'description'=>
@@ -43,8 +43,8 @@ class MusicSeeder extends Seeder
               'Label'=> "Video",
             ],
             [
-              'image'=> '16228793_1268764529829650_4665650165082750976_n.jpg',
-              'track'=> 'https://drive.google.com/uc?id=1grhQQInDkBXzn0leYSGUPXHekPslSKBu&export=media',
+              'image'=> 'IMG-20190925-WA0105.jpg',
+              'track'=> 'f1.mp3',
               'title'=> "Super Music",
               'artist'=> "Foster the Music",
               'description'=>
