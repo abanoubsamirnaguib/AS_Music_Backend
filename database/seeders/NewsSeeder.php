@@ -16,41 +16,55 @@ class NewsSeeder extends Seeder
     public function run()
     {
         $News = [
+          [
+            'image'=> 'Amen.jpg',
+            'title'=> "El Moemen Al Amen ",
+            'subTitle'=> "Christian poems",
+            'description'=>
+              "ترنيمه المؤمن الامين 🎶 🎵  2021  
+              عزف جيتار 🎸و بيانو 🎹و كمان 🎻،،
+              رؤيه جديده للترنيمه و موسيقى هاديه",
+            'likesNumber'=> 90 ,
+            'shareLink' => "https://www.youtube.com/watch?v=zP601i-x0O4" ,
+            'Date' => date("y-m-d h:i:s" , '2021/03/05'),
+            'shareNumber' => 2 ,
+            'category'=> "Video",
+          ],
+          [
+            'image'=> 'any zakartak.jfif',
+            'title'=> "any zakartak",
+            'subTitle'=> "Islamic poems Music",
+            'description'=>
+              "with cello and piano and arabic rythm , you can see how this poems sound .",
+            'likesNumber'=> 20 ,
+            'shareLink' => "/" ,
+            'Date' => date("y-m-d h:i:s"),
+            'shareNumber' => 11 ,
+            'category'=> "Music",
+          ],
             [
-              'image'=> 'IMG-20190926-WA0050.jpg',
-              'title'=> "Supermodel",
-              'subTitle'=> "Foster the People",
+              'image'=> 'IMG-20190926-WA0021.jpg',
+              'title'=> "Studio Work",
+              'subTitle'=> "New songs Coming",
               'description'=>
-                "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.",
-              'likesNumber'=> 256 ,
-              'shareLink' => "www.facebook.com/" ,
+                "In studio working on some New Songs Soon ...",
+              'likesNumber'=> 10 ,
+              'shareLink' => "/" ,
               'Date' => date("y-m-d h:i:s"),
-              'shareNumber' => 35 ,
+              'shareNumber' => 2 ,
               'category'=> "Life",
             ],
             [
-              'image'=> 'IMG-20190926-WA0021.jpg',
-              'title'=> "Super Video",
-              'subTitle'=> "Foster the Video",
+              'image'=> 'batband.jpg',
+              'title'=> "Bat Band",
+              'subTitle'=> "Band Time ",
               'description'=>
-                "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.",
-              'likesNumber'=> 256 ,
-              'shareLink' => "www.facebook.com/" ,
+                "Play Guitar in bat band ,To see More of coming event Join Our Band Page ",
+              'likesNumber'=> 10 ,
+              'shareLink' => "https://www.facebook.com/batbandstar" ,
               'Date' => date("y-m-d h:i:s"),
-              'shareNumber' => 15 ,
-              'category'=> "Video",
-            ],
-            [
-              'image'=> 'hello-icon-192 .png',
-              'title'=> "Super Music",
-              'subTitle'=> "Foster the Music",
-              'description'=>
-                "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well.",
-              'likesNumber'=> 250 ,
-              'shareLink' => "www.facebook.com/" ,
-              'Date' => date("y-m-d h:i:s"),
-              'shareNumber' => 22 ,
-              'category'=> "Music",
+              'shareNumber' => 2 ,
+              'category'=> "Social",
             ],
         ];
         foreach($News as $new){
