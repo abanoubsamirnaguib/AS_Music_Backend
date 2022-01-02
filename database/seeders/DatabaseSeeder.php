@@ -19,10 +19,10 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
-        // $this->call([LaratrustSeeder::class,UserTableSeederr::class]); 
-        // $this->call([TestimonialsSeeder::class]); 
-        // $this->call([NewsSeeder::class]); 
+        $this->call([LaratrustSeeder::class,UserTableSeederr::class]); 
+        $this->call([TestimonialsSeeder::class]); 
+        $this->call([NewsSeeder::class]); 
         $this->call([MusicSeeder::class]); 
-        // $this->call([CommentSeeder::class]); 
+        $this->call([CommentSeeder::class]); 
     }
 }
