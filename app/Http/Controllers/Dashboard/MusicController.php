@@ -224,7 +224,7 @@ class MusicController extends Controller
         if ( ! $dir['path']) {
             return 'Directory does not exist!';
         }        
-        dd([$dir['path'],$file , $filename ] );
+        // dd([$dir['path'],$file , $filename ] );
         // Storage::disk('google')->put($dir['path']. '/' .$filename , $fileData);
         // dd($name);
         Storage::disk('google')->putFileAs($dir['path'] , $file , $filename);
@@ -244,7 +244,7 @@ class MusicController extends Controller
         // dd($filename);
         
         if ( ! $file['path']) {
-            dd ('File does not exist!');
+            dd('File does not exist!');
         }        
         Storage::disk('google')->delete($file['path'] );
     }
