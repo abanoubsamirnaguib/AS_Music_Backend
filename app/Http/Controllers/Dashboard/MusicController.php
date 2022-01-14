@@ -221,7 +221,7 @@ class MusicController extends Controller
         // $filePath = $name;
         // $fileData = \File::get($filePath);
 
-        if ( ! $dir) {
+        if ( ! $dir['path']) {
             return 'Directory does not exist!';
         }        
         // Storage::disk('google')->put($dir['path']. '/' .$filename , $fileData);
