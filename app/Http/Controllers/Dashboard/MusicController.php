@@ -122,7 +122,7 @@ class MusicController extends Controller
             'shareNumber'=>'required|integer',
             'shareLink'=>'required|string',
             'image' => 'image',
-            'track' => 'mimes:application/octet-stream,audio/mpeg,mpga,mp3,wav'
+            // 'track' => 'mimes:application/octet-stream,audio/mpeg,mpga,mp3,wav'
             ];
             
             $validated = $request->validate($rules);
